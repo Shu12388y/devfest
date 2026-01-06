@@ -28,7 +28,7 @@ export const schema = buildSchema(
 );
 
 export const rootValue = {
-	hello: (args:any) => {
+	hello: (args: any) => {
 		return "Hello" + args.name;
 	},
 };
