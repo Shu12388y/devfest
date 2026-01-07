@@ -1,20 +1,20 @@
 {
-  "name": "queue",
-  "version": "1.0.0",
-  "description": "",
-  "scripts": {
-    "build": "tsc -b",
-    "inngest": "pnpm dlx inngest-cli@latest dev -u http://localhost:3000/api/inngest",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "devDependencies": {
-    "@devfest/typescript-config": "workspace:*"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "module",
-  "dependencies": {
-    "inngest": "^3.48.1"
-  }
+	"name": "queue",
+	"version": "1.0.0",
+	"description": "",
+	"scripts": {
+		"build": "tsc -b",
+		"inngest": "pnpm dlx inngest-cli@latest dev -u http://localhost:3000/api/inngest",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"devDependencies": {
+		"@devfest/typescript-config": "workspace:*"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"type": "module",
+	"dependencies": {
+		"inngest": "^3.48.1"
+	}
 }
